@@ -1,10 +1,4 @@
-Select
-	title,
-    has_won_awards
-    FROM 
-    series
-    WHere has_won_awards = 1
-    ;
+
     
 Select
     title,
@@ -35,21 +29,6 @@ Select
     From series
     WHERE seasons < 3 or seasons > 20
     order by seasons, country;
-
-Select
-    title
-
-            
-    From series
-    WHERE title LIKE '%th%'
-;
-
-Select
-    title,
-    seasons
-            
-    From series
-    WHERE seasons != 3 ;
 
 
 
